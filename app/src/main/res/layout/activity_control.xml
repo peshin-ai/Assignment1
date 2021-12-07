@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp"
+  tools:context=".Control">
+
+  <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="@string/step1" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="@string/step1Content"
+      android:textColor="@color/textPrimary"
+      android:layout_marginStart="10dp" />
+  </TableRow>
+
+  <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="@string/step2" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="@string/step2Content"
+      android:textColor="@color/textPrimary"
+      android:layout_marginStart="10dp" />
+  </TableRow>
+
+  <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="@string/task3" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="@string/task3Content"
+      android:textColor="@color/textPrimary"
+      android:layout_marginStart="10dp" />
+  </TableRow>
+
+  <View
+    android:layout_marginTop="10dp"
+    android:layout_height="2dp"
+    android:background="@color/primaryMain" />
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <RadioGroup
+      android:id="@+id/control_rows"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    </RadioGroup>
+
+  </ScrollView>
+
+  <TextView
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"/>
+  <Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="Apply"
+    android:onClick="Apply"
+    />
+</TableLayout>

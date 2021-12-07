@@ -1,0 +1,28 @@
+<resources>
+  <string name="app_name">Assignment1</string>
+  <string name="Greeting">Control Fan App</string>
+  <string name="start">Start</string>
+  <string name="slogan">Control All Fan</string>
+  <string name="step1">Step 1</string>
+  <string name="step1Content">Please choose the Level first</string>
+  <string name="step2">Step 2:</string>
+  <string name="step2Content">Please choose timer</string>
+  <string name="task3">Task 3:</string>
+  <string name="task3Content">Press Apply</string>
+  <string name="level_1">Level 1</string>
+  <string name="level_2">Level 2</string>
+  <string name="level_3">Level 3</string>
+  <string name="min15">15 minutes</string>
+  <string name="min30">30 minutes</string>
+  <string name="min60">60 minutes</string>
+  <string-array name="levels">
+    <item>Level 1</item>
+    <item>Level 2</item>
+    <item>Level 3</item>
+  </string-array>
+  <string-array name="timers">
+    <item>15 minutes</item>
+    <item>30 minutes</item>
+    <item>60 minutes</item>
+  </string-array>
+</resources>
